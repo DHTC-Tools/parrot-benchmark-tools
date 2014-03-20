@@ -1,0 +1,67 @@
+--2014-02-28 12:03:32--  http://stash.osgconnect.net/+sthapa/cvmfs-root.tar.gz
+Resolving stash.osgconnect.net... 192.170.227.197
+Connecting to stash.osgconnect.net|192.170.227.197|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://raw.stash.osgconnect.net/+sthapa/cvmfs-root.tar.gz [following]
+--2014-02-28 12:03:32--  http://raw.stash.osgconnect.net/+sthapa/cvmfs-root.tar.gz
+Resolving raw.stash.osgconnect.net... 192.170.227.197
+Reusing existing connection to stash.osgconnect.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 38883 (38K) [application/x-gzip]
+Saving to: `cvmfs-root.tar.gz'
+
+     0K .......... .......... .......... .......              100%  235M=0s
+
+2014-02-28 12:03:32 (235 MB/s) - `cvmfs-root.tar.gz' saved [38883/38883]
+
+/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/utilities/createUserASetup.sh: line 40: /.asetup: Permission denied
+Error in <TXNetSystem::Connect>: some severe error occurred while opening the connection at root://faxbox.usatlas.org//user/sthapa/FDR/user.flegger.MWT2.data12_8TeV.00211620.physics_Muons.merge.NTUP_SMWZ.f479_m1228_p1067_p1141_tid00986521_00/NTUP_SMWZ.00986521._000013.MWT2.root.1 - exit
+Error in <TXNetSystem::TXNetSystem>: fatal error: connection creation failed.
+140228 12:03:33 7771 Xrd: Connect: can't open connection to [faxbox.mwt2.org:1094]
+140228 12:03:33 7771 Xrd: XrdNetFile: Error creating logical connection to faxbox.mwt2.org:1094
+Error in <TXNetFile::CreateXClient>: open attempt failed on root://faxbox.usatlas.org//user/sthapa/FDR/user.flegger.MWT2.data12_8TeV.00211620.physics_Muons.merge.NTUP_SMWZ.f479_m1228_p1067_p1141_tid00986521_00/NTUP_SMWZ.00986521._000013.MWT2.root.1
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+
+Thread 2 (Thread 0x2aad98692700 (LWP 7781)):
+#0  0x0000003fd4caccdd in nanosleep () from /lib64/libc.so.6
+#1  0x0000003fd4cacb50 in sleep () from /lib64/libc.so.6
+#2  0x00002aad98258e3c in GarbageCollectorThread (arg=0xde3010, thr=<value optimized out>) at /afs/slac/public/software/scalla/releases/v3.2.7/xrootd-3.2.7/src/XrdClient/XrdClientConnMgr.cc:73
+#3  0x00002aad97fdcb0f in XrdSysThread_Xeq (myargs=0x783540) at /afs/slac/public/software/scalla/releases/v3.2.7/xrootd-3.2.7/src/XrdSys/XrdSysPthread.cc:67
+#4  0x0000003fd54079d1 in start_thread () from /lib64/libpthread.so.0
+#5  0x0000003fd4ce8b6d in clone () from /lib64/libc.so.6
+
+Thread 1 (Thread 0x2aad9795d080 (LWP 7771)):
+#0  0x0000003fd4cac8fd in waitpid () from /lib64/libc.so.6
+#1  0x0000003fd4c3e909 in do_system () from /lib64/libc.so.6
+#2  0x0000003fd4c3ec40 in system () from /lib64/libc.so.6
+#3  0x00002aad926627cc in TUnixSystem::StackTrace() () from /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/root/5.34.14-x86_64-slc6-gcc4.7/lib/libCore.so
+#4  0x00002aad92665003 in TUnixSystem::DispatchSignals(ESignals) () from /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/root/5.34.14-x86_64-slc6-gcc4.7/lib/libCore.so
+#5  <signal handler called>
+#6  0x000000000040420e in readFile(std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, float, float, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, rootStats*) ()
+#7  0x0000000000404b8b in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+If they do not help you then please submit a bug report at
+http://root.cern.ch/bugs. Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#6  0x000000000040420e in readFile(std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, float, float, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, rootStats*) ()
+#7  0x0000000000404b8b in main ()
+===========================================================
+
+
+
+real	0m2.405s
+user	0m1.188s
+sys	0m0.527s

@@ -1,0 +1,37 @@
+2014/03/04 10:56:12.88 [12633] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:56:12.88 [12633] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:56:16.30 [12633] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:56:16.30 [12633] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:56:20.35 [12633] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:56:20.35 [12633] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:56:23.80 [13857] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:56:23.80 [13857] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:56:28.56 [14425] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:56:28.56 [14425] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:56:35.67 [12633] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:56:35.67 [12633] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/utilities/createUserASetup.sh: line 40: /.asetup: Permission denied
+2014/03/04 10:56:38.00 [15157] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:56:38.00 [15157] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:57:00.27 [12633] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:57:00.27 [12633] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:57:06.67 [17757] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:57:06.67 [17757] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+which: no python in ((null))
+readlink: missing operand
+Try `readlink --help' for more information.
+Usage: file [-bchikLNnprsvz0] [--apple] [--mime-encoding] [--mime-type]
+            [-e testname] [-F separator] [-f namefile] [-m magicfiles] file ...
+       file -C [-m magicfiles]
+       file [--help]
+2014/03/04 10:57:14.09 [18559] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:57:14.09 [18559] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:57:22.88 [19364] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:57:22.88 [19364] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:57:28.11 [12633] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:57:28.11 [12633] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:57:29.41 [12633] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:57:29.41 [12633] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+./parrot-root/run-read.sh: line 9: ./get_file_list.py: No such file or directory
+./parrot-root/run-read.sh: line 10: ./readDirect-new: No such file or directory
+Application exited with error

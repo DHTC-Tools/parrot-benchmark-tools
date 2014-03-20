@@ -1,0 +1,13 @@
+universe = vanilla
+notification=never
+executable = ../run_root.py
+output = read-parrot/stats.out.$(Cluster).$(Process)
+error = read-parrot/stats.err.$(Cluster).$(Process)
+log = read-parrot/stats.log
++ProjectName = "atlas-org-uchicago"
+Requirements = ( IS_RCC_aglt2 )
+arguments = $(Process)
+ShouldTransferFiles = YES
+when_to_transfer_output = ON_EXIT
+
+queue 50

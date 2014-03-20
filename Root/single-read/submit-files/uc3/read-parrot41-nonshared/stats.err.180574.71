@@ -1,0 +1,37 @@
+2014/03/04 10:56:11.04 [6492] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:56:11.04 [6492] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:56:14.66 [6492] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:56:14.66 [6492] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:56:18.58 [6492] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:56:18.58 [6492] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:56:23.61 [8023] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:56:23.61 [8023] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:56:28.17 [8534] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:56:28.17 [8534] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:56:34.00 [6492] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:56:34.00 [6492] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/utilities/createUserASetup.sh: line 40: /.asetup: Permission denied
+2014/03/04 10:56:36.63 [9280] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:56:36.63 [9280] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:56:46.83 [6492] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:56:46.83 [6492] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:56:51.33 [10646] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:56:51.33 [10646] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+which: no python in ((null))
+readlink: missing operand
+Try `readlink --help' for more information.
+Usage: file [-bchikLNnprsvz0] [--apple] [--mime-encoding] [--mime-type]
+            [-e testname] [-F separator] [-f namefile] [-m magicfiles] file ...
+       file -C [-m magicfiles]
+       file [--help]
+2014/03/04 10:57:00.04 [11408] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:57:00.05 [11408] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:57:07.76 [12144] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:57:07.76 [12144] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:57:14.63 [6492] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:57:14.63 [6492] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:57:17.50 [6492] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+2014/03/04 10:57:17.50 [6492] parrot_run: notice: PARROT_CVMFS_REPO does not contain an entry for the CVMFS repository 'sft.cern.ch'
+./parrot-root/run-read.sh: line 9: ./get_file_list.py: No such file or directory
+./parrot-root/run-read.sh: line 10: ./readDirect-new: No such file or directory
+Application exited with error

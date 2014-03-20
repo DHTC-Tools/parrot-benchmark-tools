@@ -1,0 +1,72 @@
+uc3-c009.mwt2.org
+cvmfs-root/
+cvmfs-root/inspector
+cvmfs-root/run-inspector.sh
+cvmfs-root/readDirect
+cvmfs-root/filelist
+cvmfs-root/readDirect-new
+cvmfs-root/get_file_list.py
+cvmfs-root/run-read.sh
+cvmfs-root/read-multiple.sh
+filelist
+get_file_list.py
+inspector
+read-multiple.sh
+readDirect
+readDirect-new
+run-inspector.sh
+run-read.sh
+...Type localSetupAGIS to setup AGIS
+...Type localSetupDQ2Client to use DQ2 Client
+...Type localSetupEmi to use emi
+...Type localSetupFAX to use FAX
+...Type localSetupGanga to use Ganga
+...Type localSetupGcc to use alternate gcc
+...Type localSetupPacman to use Pacman
+...Type localSetupPandaClient to use Panda Client
+...Type localSetupPyAMI to setup pyAMI
+...Type localSetupPoD to setup Proof-on-Demand
+...Type localSetupROOT to setup (standalone) ROOT
+...Type localSetupDQ2Wrappers to setup DQ2Wrappers
+...Type localSetupSFT to setup SFT packages
+...Type localSetupXRootD to setup XRootD
+...Type showVersions to show versions of installed software
+...Type asetup to setup a release (changeASetup to change asetup version)
+...Type rcSetup to setup an ASG release (changeRCSetup to change rcSetup ver.)
+...Type diagnostics for diagnostic tools
+...Type helpMe for more help
+...Type printMenu to show this menu
+
+[1m[4m25 Feb 2014[0m 
+    Standalone ROOT version 5.34.17 is available.
+    5.34.17 will be the default version on or after 05 Mar 2014.     
+    There are 
+      SL5 versions (gcc34, python 2.6) 
+      SL6 versions (gcc47 and gcc48, python 2.7)
+
+  (Usage: showVersions root).  
+
+
+[1;34mCreated /.asetup.  Please look and (optional) edit it.[0m
+************************************************************************
+Setting up ROOT version 5.34.14-x86_64-slc6-gcc4.7
+  Current GCC version: gcc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-3)
+Setting up gcc version gcc472_x86_64_slc6
+  Python version in your path is 2.6.6
+  Python version used to build ROOT is 2.7
+Setting up Python version 2.7.3-x86_64-slc6-gcc47
+  If you need a different gcc/python version:
+    localSetupGcc --gccVersion=<value>
+    localSetupPython --pythonVersion=<version>
+  where the version must exist (showVersions --show=gcc,python)
+************************************************************************
+ Tip for _this_ standalone ROOT and grid (ie prun) submission:
+  avoid --athenaTag if you do not need athena
+  use --rootVer=5.34/14 --cmtConfig=x86_64-slc6-gcc47-opt
+************************************************************************
+ROOTVERSION=49361
+ROOTBRANCH='v5-34-14'
+xrootd - no disk accesses available.
+FILESYSTEM='root'
+   ''
+Problem opening the file root://faxbox.usatlas.org//user/sthapa/FDR/user.flegger.MWT2.data12_8TeV.00211787.physics_Muons.merge.NTUP_SMWZ.f479_m1228_p1067_p1141_tid00990029_00/NTUP_SMWZ.00990029._000028.MWT2.root.1

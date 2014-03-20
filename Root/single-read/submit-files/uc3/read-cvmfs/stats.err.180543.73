@@ -1,0 +1,650 @@
+--2014-02-28 11:45:55--  http://stash.osgconnect.net/+sthapa/cvmfs-root.tar.gz
+Resolving stash.osgconnect.net... 192.170.227.197
+Connecting to stash.osgconnect.net|192.170.227.197|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://raw.stash.osgconnect.net/+sthapa/cvmfs-root.tar.gz [following]
+--2014-02-28 11:45:55--  http://raw.stash.osgconnect.net/+sthapa/cvmfs-root.tar.gz
+Resolving raw.stash.osgconnect.net... 192.170.227.197
+Reusing existing connection to stash.osgconnect.net:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 38883 (38K) [application/x-gzip]
+Saving to: `cvmfs-root.tar.gz'
+
+     0K .......... .......... .......... .......              100% 45.5M=0.001s
+
+2014-02-28 11:45:55 (45.5 MB/s) - `cvmfs-root.tar.gz' saved [38883/38883]
+
+/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/utilities/createUserASetup.sh: line 40: /.asetup: Permission denied
+Warning in <TClass::TClass>: no dictionary for class pair<string,string> is available
+140228 12:03:18 32681 Xrd: XrdClientMessage::ReadRaw: Failed to read header (8 bytes).
+140228 12:05:51 32670 Xrd: ReadPartialAnswer: Failed to read msg from connmgr (server [faxbox.mwt2.org:1094]). Retrying ...
+140228 12:05:51 32670 Xrd: HandleServerError: Communication error with server [faxbox.mwt2.org:1094]. Rebouncing here.
+140228 12:05:52 32670 Xrd: Connect: can't open connection to [faxbox.mwt2.org:1094]
+140228 12:05:52 32670 Xrd: XrdNetFile: Error creating logical connection to faxbox.mwt2.org:1094
+140228 12:05:52 32670 Xrd: GoToAnotherServer: Error connecting to [faxbox.mwt2.org:1094
+140228 12:05:57 32670 Xrd: HandleServerError: Communication error with server [faxbox.mwt2.org:1094]. Rebouncing here.
+140228 12:05:57 32670 Xrd: Connect: can't open connection to [faxbox.mwt2.org:1094]
+140228 12:05:57 32670 Xrd: XrdNetFile: Error creating logical connection to faxbox.mwt2.org:1094
+140228 12:05:57 32670 Xrd: GoToAnotherServer: Error connecting to [faxbox.mwt2.org:1094
+140228 12:06:02 32670 Xrd: HandleServerError: Communication error with server [faxbox.mwt2.org:1094]. Rebouncing here.
+140228 12:06:02 32670 Xrd: Connect: can't open connection to [faxbox.mwt2.org:1094]
+140228 12:06:02 32670 Xrd: XrdNetFile: Error creating logical connection to faxbox.mwt2.org:1094
+140228 12:06:02 32670 Xrd: GoToAnotherServer: Error connecting to [faxbox.mwt2.org:1094
+140228 12:06:07 32670 Xrd: HandleServerError: Communication error with server [faxbox.mwt2.org:1094]. Rebouncing here.
+140228 12:06:07 32670 Xrd: Connect: can't open connection to [faxbox.mwt2.org:1094]
+140228 12:06:07 32670 Xrd: XrdNetFile: Error creating logical connection to faxbox.mwt2.org:1094
+140228 12:06:07 32670 Xrd: GoToAnotherServer: Error connecting to [faxbox.mwt2.org:1094
+140228 12:06:12 32670 Xrd: HandleServerError: Communication error with server [faxbox.mwt2.org:1094]. Rebouncing here.
+140228 12:06:12 32670 Xrd: Connect: can't open connection to [faxbox.mwt2.org:1094]
+140228 12:06:12 32670 Xrd: XrdNetFile: Error creating logical connection to faxbox.mwt2.org:1094
+140228 12:06:12 32670 Xrd: GoToAnotherServer: Error connecting to [faxbox.mwt2.org:1094
+140228 12:06:17 32670 Xrd: HandleServerError: Communication error with server [faxbox.mwt2.org:1094]. Rebouncing here.
+140228 12:06:17 32670 Xrd: Connect: can't open connection to [faxbox.mwt2.org:1094]
+140228 12:06:17 32670 Xrd: XrdNetFile: Error creating logical connection to faxbox.mwt2.org:1094
+140228 12:06:17 32670 Xrd: GoToAnotherServer: Error connecting to [faxbox.mwt2.org:1094
+140228 12:06:22 32670 Xrd: HandleServerError: Communication error with server [faxbox.mwt2.org:1094]. Rebouncing here.
+140228 12:06:22 32670 Xrd: Connect: can't open connection to [faxbox.mwt2.org:1094]
+140228 12:06:22 32670 Xrd: XrdNetFile: Error creating logical connection to faxbox.mwt2.org:1094
+140228 12:06:22 32670 Xrd: GoToAnotherServer: Error connecting to [faxbox.mwt2.org:1094
+140228 12:06:27 32670 Xrd: HandleServerError: Communication error with server [faxbox.mwt2.org:1094]. Rebouncing here.
+140228 12:06:27 32670 Xrd: Connect: can't open connection to [faxbox.mwt2.org:1094]
+140228 12:06:27 32670 Xrd: XrdNetFile: Error creating logical connection to faxbox.mwt2.org:1094
+140228 12:06:27 32670 Xrd: GoToAnotherServer: Error connecting to [faxbox.mwt2.org:1094
+140228 12:06:32 32670 Xrd: HandleServerError: Communication error with server [faxbox.mwt2.org:1094]. Rebouncing here.
+140228 12:06:32 32670 Xrd: Connect: can't open connection to [faxbox.mwt2.org:1094]
+140228 12:06:32 32670 Xrd: XrdNetFile: Error creating logical connection to faxbox.mwt2.org:1094
+140228 12:06:32 32670 Xrd: GoToAnotherServer: Error connecting to [faxbox.mwt2.org:1094
+140228 12:06:37 32670 Xrd: HandleServerError: Communication error with server [faxbox.mwt2.org:1094]. Rebouncing here.
+140228 12:06:37 32670 Xrd: Connect: can't open connection to [faxbox.mwt2.org:1094]
+140228 12:06:37 32670 Xrd: XrdNetFile: Error creating logical connection to faxbox.mwt2.org:1094
+140228 12:06:37 32670 Xrd: GoToAnotherServer: Error connecting to [faxbox.mwt2.org:1094
+140228 12:06:42 32670 Xrd: HandleServerError: Communication error with server [faxbox.mwt2.org:1094]. Rebouncing here.
+140228 12:06:42 32670 Xrd: Connect: can't open connection to [faxbox.mwt2.org:1094]
+140228 12:06:42 32670 Xrd: XrdNetFile: Error creating logical connection to faxbox.mwt2.org:1094
+140228 12:06:42 32670 Xrd: GoToAnotherServer: Error connecting to [faxbox.mwt2.org:1094
+140228 12:06:47 32670 Xrd: HandleServerError: Communication error with server [faxbox.mwt2.org:1094]. Rebouncing here.
+140228 12:06:47 32670 Xrd: Connect: can't open connection to [faxbox.mwt2.org:1094]
+140228 12:06:47 32670 Xrd: XrdNetFile: Error creating logical connection to faxbox.mwt2.org:1094
+140228 12:06:47 32670 Xrd: GoToAnotherServer: Error connecting to [faxbox.mwt2.org:1094
+140228 12:06:52 32670 Xrd: HandleServerError: Communication error with server [faxbox.mwt2.org:1094]. Rebouncing here.
+140228 12:06:52 32670 Xrd: Connect: can't open connection to [faxbox.mwt2.org:1094]
+140228 12:06:52 32670 Xrd: XrdNetFile: Error creating logical connection to faxbox.mwt2.org:1094
+140228 12:06:52 32670 Xrd: GoToAnotherServer: Error connecting to [faxbox.mwt2.org:1094
+140228 12:06:57 32670 Xrd: HandleServerError: Communication error with server [faxbox.mwt2.org:1094]. Rebouncing here.
+140228 12:06:57 32670 Xrd: Connect: can't open connection to [faxbox.mwt2.org:1094]
+140228 12:06:57 32670 Xrd: XrdNetFile: Error creating logical connection to faxbox.mwt2.org:1094
+140228 12:06:57 32670 Xrd: GoToAnotherServer: Error connecting to [faxbox.mwt2.org:1094
+140228 12:07:02 32670 Xrd: HandleServerError: Communication error with server [faxbox.mwt2.org:1094]. Rebouncing here.
+140228 12:07:02 32670 Xrd: Connect: can't open connection to [faxbox.mwt2.org:1094]
+140228 12:07:02 32670 Xrd: XrdNetFile: Error creating logical connection to faxbox.mwt2.org:1094
+140228 12:07:02 32670 Xrd: GoToAnotherServer: Error connecting to [faxbox.mwt2.org:1094
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+Error in <TBranch::GetBasket>: File: root://faxbox.usatlas.org//user/sthapa/FDR/user.flegger.MWT2.data12_8TeV.00212199.physics_Muons.merge.NTUP_SMWZ.f479_m1228_p1067_p1141_tid01007410_00/NTUP_SMWZ.01007410._000009.MWT2.root.1 at byte:818761988, branch:EF_2b35_loose_3j35_a4tchad_4L1J15, entry:6406, badread=1, nerrors=1, basketnumber=17
+Error in <TBranch::GetBasket>: File: root://faxbox.usatlas.org//user/sthapa/FDR/user.flegger.MWT2.data12_8TeV.00212199.physics_Muons.merge.NTUP_SMWZ.f479_m1228_p1067_p1141_tid01007410_00/NTUP_SMWZ.01007410._000009.MWT2.root.1 at byte:0, branch:EF_2b35_loose_3j35_a4tchad_4L1J15, entry:6406, badread=0, nerrors=2, basketnumber=17
+Error in <TBranch::GetBasket>: File: root://faxbox.usatlas.org//user/sthapa/FDR/user.flegger.MWT2.data12_8TeV.00212199.physics_Muons.merge.NTUP_SMWZ.f479_m1228_p1067_p1141_tid01007410_00/NTUP_SMWZ.01007410._000009.MWT2.root.1 at byte:0, branch:EF_2b35_loose_3j35_a4tchad_4L1J15, entry:6406, badread=0, nerrors=3, basketnumber=17
+Error in <TBranch::GetBasket>: File: root://faxbox.usatlas.org//user/sthapa/FDR/user.flegger.MWT2.data12_8TeV.00212199.physics_Muons.merge.NTUP_SMWZ.f479_m1228_p1067_p1141_tid01007410_00/NTUP_SMWZ.01007410._000009.MWT2.root.1 at byte:0, branch:EF_2b35_loose_3j35_a4tchad_4L1J15, entry:6406, badread=0, nerrors=4, basketnumber=17
+Error in <TBranch::GetBasket>: File: root://faxbox.usatlas.org//user/sthapa/FDR/user.flegger.MWT2.data12_8TeV.00212199.physics_Muons.merge.NTUP_SMWZ.f479_m1228_p1067_p1141_tid01007410_00/NTUP_SMWZ.01007410._000009.MWT2.root.1 at byte:0, branch:EF_2b35_loose_3j35_a4tchad_4L1J15, entry:6406, badread=0, nerrors=5, basketnumber=17
+Error in <TBranch::GetBasket>: File: root://faxbox.usatlas.org//user/sthapa/FDR/user.flegger.MWT2.data12_8TeV.00212199.physics_Muons.merge.NTUP_SMWZ.f479_m1228_p1067_p1141_tid01007410_00/NTUP_SMWZ.01007410._000009.MWT2.root.1 at byte:0, branch:EF_2b35_loose_3j35_a4tchad_4L1J15, entry:6406, badread=0, nerrors=6, basketnumber=17
+Error in <TBranch::GetBasket>: File: root://faxbox.usatlas.org//user/sthapa/FDR/user.flegger.MWT2.data12_8TeV.00212199.physics_Muons.merge.NTUP_SMWZ.f479_m1228_p1067_p1141_tid01007410_00/NTUP_SMWZ.01007410._000009.MWT2.root.1 at byte:0, branch:EF_2b35_loose_3j35_a4tchad_4L1J15, entry:6406, badread=0, nerrors=7, basketnumber=17
+Error in <TBranch::GetBasket>: File: root://faxbox.usatlas.org//user/sthapa/FDR/user.flegger.MWT2.data12_8TeV.00212199.physics_Muons.merge.NTUP_SMWZ.f479_m1228_p1067_p1141_tid01007410_00/NTUP_SMWZ.01007410._000009.MWT2.root.1 at byte:0, branch:EF_2b35_loose_3j35_a4tchad_4L1J15, entry:6406, badread=0, nerrors=8, basketnumber=17
+Error in <TBranch::GetBasket>: File: root://faxbox.usatlas.org//user/sthapa/FDR/user.flegger.MWT2.data12_8TeV.00212199.physics_Muons.merge.NTUP_SMWZ.f479_m1228_p1067_p1141_tid01007410_00/NTUP_SMWZ.01007410._000009.MWT2.root.1 at byte:0, branch:EF_2b35_loose_3j35_a4tchad_4L1J15, entry:6406, badread=0, nerrors=9, basketnumber=17
+Error in <TBranch::GetBasket>: File: root://faxbox.usatlas.org//user/sthapa/FDR/user.flegger.MWT2.data12_8TeV.00212199.physics_Muons.merge.NTUP_SMWZ.f479_m1228_p1067_p1141_tid01007410_00/NTUP_SMWZ.01007410._000009.MWT2.root.1 at byte:0, branch:EF_2b35_loose_3j35_a4tchad_4L1J15, entry:6406, badread=0, nerrors=10, basketnumber=17
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:07 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:07 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:08 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:08 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:08 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:08 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:08 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:08 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:08 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:08 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:08 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:08 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:08 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_readv. Aborting command.
+140228 12:07:08 32670 Xrd: GetParallelStreamCount: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: GetParallelStreamToUse: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_read. Aborting command.
+140228 12:07:08 32670 Xrd: WriteToServer: Unknown logical conn -1
+140228 12:07:08 32670 Xrd: SendGenCommand: Too many redirections for request  kXR_close. Aborting command.
+140228 12:07:08 32670 Xrd: Connect: can't open connection to [faxbox.mwt2.org:1094]
+140228 12:07:08 32670 Xrd: XrdNetFile: Error creating logical connection to faxbox.mwt2.org:1094
+Error in <TXNetFile::CreateXClient>: open attempt failed on root://faxbox.usatlas.org//user/sthapa/FDR/user.flegger.MWT2.data12_8TeV.00212172.physics_Muons.merge.NTUP_SMWZ.f479_m1228_p1067_p1141_tid01007411_00/NTUP_SMWZ.01007411._000075.MWT2.root.1
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+
+Thread 2 (Thread 0x2b6354773700 (LWP 32680)):
+#0  0x00000032b04accdd in nanosleep () from /lib64/libc.so.6
+#1  0x00000032b04acb50 in sleep () from /lib64/libc.so.6
+#2  0x00002b6354339e3c in GarbageCollectorThread (arg=0xde3010, thr=<value optimized out>) at /afs/slac/public/software/scalla/releases/v3.2.7/xrootd-3.2.7/src/XrdClient/XrdClientConnMgr.cc:73
+#3  0x00002b63540bdb0f in XrdSysThread_Xeq (myargs=0x783540) at /afs/slac/public/software/scalla/releases/v3.2.7/xrootd-3.2.7/src/XrdSys/XrdSysPthread.cc:67
+#4  0x00000032b08079d1 in start_thread () from /lib64/libpthread.so.0
+#5  0x00000032b04e8b6d in clone () from /lib64/libc.so.6
+
+Thread 1 (Thread 0x2b6353a3e080 (LWP 32670)):
+#0  0x00000032b04ac8fd in waitpid () from /lib64/libc.so.6
+#1  0x00000032b043e909 in do_system () from /lib64/libc.so.6
+#2  0x00000032b043ec40 in system () from /lib64/libc.so.6
+#3  0x00002b634e7437cc in TUnixSystem::StackTrace() () from /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/root/5.34.14-x86_64-slc6-gcc4.7/lib/libCore.so
+#4  0x00002b634e746003 in TUnixSystem::DispatchSignals(ESignals) () from /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/root/5.34.14-x86_64-slc6-gcc4.7/lib/libCore.so
+#5  <signal handler called>
+#6  0x000000000040420e in readFile(std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, float, float, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, rootStats*) ()
+#7  0x0000000000404c1a in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+If they do not help you then please submit a bug report at
+http://root.cern.ch/bugs. Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#6  0x000000000040420e in readFile(std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, float, float, std::basic_string<char, std::char_traits<char>, std::allocator<char> >, rootStats*) ()
+#7  0x0000000000404c1a in main ()
+===========================================================
+
+
+
+real	21m13.605s
+user	0m25.584s
+sys	0m2.710s

@@ -1,0 +1,12 @@
+universe = vanilla
+notification=never
+executable = ./run_root-parrot41-shared.py
+output = read-parrot41-shared/stats.out.$(Cluster).$(Process)
+error = read-parrot41-shared/stats.err.$(Cluster).$(Process)
+log = read-parrot41-shared/stats.log
+Requirements = regexp("uc3-c[0-1][0-9].*", Machine)
++ProjectName = "atlas-org-uchicago"
+ShouldTransferFiles = YES
+when_to_transfer_output = ON_EXIT
+
+queue 200

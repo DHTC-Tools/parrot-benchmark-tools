@@ -1,0 +1,13 @@
+universe = vanilla
+notification=never
+executable = ../run_cvmfs_root.sh
+output = cvmfs/stats.out.$(Cluster).$(Process)
+error = cvmfs/stats.err.$(Cluster).$(Process)
+log = cvmfs/stats.log
++ProjectName = "atlas-org-uchicago"
+Requirements = ( IS_RCC_uta )
+arguments = $(Process)
+ShouldTransferFiles = YES
+when_to_transfer_output = ON_EXIT
+
+queue 50
