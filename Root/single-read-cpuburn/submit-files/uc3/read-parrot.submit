@@ -1,0 +1,12 @@
+universe = vanilla
+notification=never
+executable = ../read-cpuburn.py
+output = parrot/stats.out.$(Cluster).$(Process)
+error = parrot/stats.err.$(Cluster).$(Process)
+log = parrot/stats.log
++ProjectName = "atlas-org-uchicago"
+Requirements =  regexp("uc3-c[0-3][0-9][0-9].*", Machine)
+ShouldTransferFiles = YES
+when_to_transfer_output = ON_EXIT
+
+queue 200
