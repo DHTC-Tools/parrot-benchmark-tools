@@ -1,9 +1,9 @@
 universe = vanilla
 notification=never
-executable = ../multiple_read.py
-output = fresh/stats.out.$(Cluster).$(Process)
-error = fresh/stats.err.$(Cluster).$(Process)
-log = fresh/stats.log
+executable = ../multiple_read_pregen.py
+output = pregen/stats.out.$(Cluster).$(Process)
+error = pregen/stats.err.$(Cluster).$(Process)
+log = pregen/stats.log
 +ProjectName = "atlas-org-uchicago"
 Requirements =  regexp("uc3-c[0-3][0-9][0-9].*", Machine)
 ShouldTransferFiles = YES
