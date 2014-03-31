@@ -7,4 +7,4 @@ for filename in `./get_file_list.py filelist 5`;
 do
   filelist="$filelist root://faxbox.usatlas.org//user/sthapa/$filename"
 done
-./readDirect-new $filelist physics 10 30
+./readDirect-multiple $filelist physics 10 30
