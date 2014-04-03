@@ -1,6 +1,6 @@
 universe = vanilla
 notification=never
-executable = ../multiple_read_pregen.py
+executable = ../time_atlas_init.py
 output = pregen/stats.out.$(Cluster).$(Process)
 error = pregen/stats.err.$(Cluster).$(Process)
 log = pregen/stats.log
@@ -9,4 +9,4 @@ Requirements =  regexp("uc3-c[0-3][0-9][0-9].*", Machine)
 ShouldTransferFiles = YES
 when_to_transfer_output = ON_EXIT
 
-queue 100
+queue 500

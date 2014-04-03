@@ -32,10 +32,9 @@ WEB_PROXY= ''
 USER_PROXY = """"""
 APP_URL = 'http://stash.osgconnect.net/+sthapa/parrot-root.tar.gz'
 PARROT_URL = 'http://stash.osgconnect.net/parrot'
-PARROT_CACHE_URL = 'http://stash.osgconnect.net/+sthapa/parrot-cachedir.tar.gz'
-JOB_SCRIPT = './parrot-root/read-multiple.sh'
+JOB_SCRIPT = './parrot-root/init-atlas.sh'
 JOB_ARGS = ""
-CVMFS_INFO = {'atlas.cern.ch': {'options': 'url=http://cvmfs.racf.bnl.gov:8000/opt/atlas;http://cvmfs-stratum-one.cern.ch:8000/opt/atlas,pubkey=cern.ch.pub,proxies=squid.osgconnect.net:3128', 'key': 'http://stash.osgconnect.net/+sthapa/cern.ch.pub'}, 'oasis.opensciencegrid.org': {'options': 'url=http://oasis-replica.opensciencegrid.org:8000/cvmfs/oasis,pubkey=opensciencegrid.org.pub,proxies=squid.osgconnect.net:3128', 'key': 'http://stash.osgconnect.net/keys/opensciencegrid.org.pub'}, 'atlas-nightlies.cern.ch': {'options': "url=http://cvmfs-atlas-nightlies.cern.ch/cvmfs/atlas-nightlies.cern.ch,pubkey=cern.ch.pub,proxies=squid.osgconnect.net:3128'", 'key': 'http://stash.osgconnect.net/+sthapa/cern.ch.pub'}, 'atlas-condb.cern.ch': {'options': 'url=http://cvmfs.racf.bnl.gov:8000/opt/atlas-condb;http://cvmfs-stratum-one.cern.ch:8000/opt/atlas-condb,pubkey=cern.ch.pub,proxies=squid.osgconnect.net:3128', 'key': 'http://stash.osgconnect.net/+sthapa/cern.ch.pub'}}
+CVMFS_INFO = {'atlas-condb.cern.ch': {'key': 'http://stash.osgconnect.net/+sthapa/cern.ch.pub', 'options': 'url=http://cvmfs.racf.bnl.gov:8000/opt/atlas-condb;http://cvmfs-stratum-one.cern.ch:8000/opt/atlas-condb,pubkey=cern.ch.pub,proxies=squid.osgconnect.net:3128'}, 'atlas-nightlies.cern.ch': {'key': 'http://stash.osgconnect.net/+sthapa/cern.ch.pub', 'options': "url=http://cvmfs-atlas-nightlies.cern.ch/cvmfs/atlas-nightlies.cern.ch,pubkey=cern.ch.pub,proxies=squid.osgconnect.net:3128'"}, 'atlas.cern.ch': {'key': 'http://stash.osgconnect.net/+sthapa/cern.ch.pub', 'options': 'url=http://cvmfs.racf.bnl.gov:8000/opt/atlas;http://cvmfs-stratum-one.cern.ch:8000/opt/atlas,pubkey=cern.ch.pub,proxies=squid.osgconnect.net:3128'}, 'oasis.opensciencegrid.org': {'key': 'http://stash.osgconnect.net/keys/opensciencegrid.org.pub', 'options': 'url=http://oasis-replica.opensciencegrid.org:8000/cvmfs/oasis,pubkey=opensciencegrid.org.pub,proxies=squid.osgconnect.net:3128'}, 'sft.cern.ch': {'key': 'http://stash.osgconnect.net/+sthapa/cern.ch.pub', 'options': 'url=http://cvmfs.racf.bnl.gov:8000/opt/sft;http://cvmfs-stratum-one.cern.ch:8000/opt/sft,pubkey=cern.ch.pub,proxies=squid.osgconnect.net:3128'}}
 VERSION = '0.16-osgc'
 
 def write_ticket(directory):
@@ -117,7 +116,6 @@ def setup_parrot(directory):
   sys_ver = platform.dist()[1][0]
   parrot_url = PARROT_URL + "/parrot-sl%s.tar.gz" % sys_ver
   parrot_path = download_tarball(parrot_url, directory)
-  download_tarball(PARROT_CACHE_URL, directory)
   return parrot_path
 
 def generate_env(parrot_path, debug = False):
